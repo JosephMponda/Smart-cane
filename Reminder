@@ -1,0 +1,6 @@
+cd smart-cane
+git init
+git add .
+git commit -m "Initial commit: modular smart cane"
+gh repo create smart-cane --public  # or --private if you prefer
+git push -u origin main
