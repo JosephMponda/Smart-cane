@@ -1,0 +1,17 @@
+smart-cane/
+├── main.py
+├── requirements.txt
+├── README.md
+├── vision.py
+├── ultrasonic.py
+├── sweep.py
+├── speech.py
+├── navigation.py
+├── terrain.py
+├── path_check.py
+├── test/
+│   ├── test_vision.py
+│   ├── test_terrain.py
+│   └── test_path_check.py
+└── systemd/
+    └── smartcane.service
