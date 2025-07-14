@@ -1,0 +1,4 @@
+sudo cp systemd/smartcane.service /etc/systemd/system/
+sudo systemctl daemon-reload
+sudo systemctl enable smartcane.service
+sudo systemctl start smartcane.service
