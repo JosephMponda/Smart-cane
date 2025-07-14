@@ -1,0 +1,21 @@
+> You may add `torch`, `tensorflow`, or `onnxruntime` if you’re using any deep learning models.
+
+---
+
+## 🖥️ 3. `systemd/smartcane.service`
+
+Include your service file here so it's version-controlled:
+
+```ini
+[Unit]
+Description=Smart Cane Navigation System
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/python3 /home/pi/smart-cane/main.py
+WorkingDirectory=/home/pi/smart-cane
+Restart=always
+User=pi
+
+[Install]
+WantedBy=multi-user.target
