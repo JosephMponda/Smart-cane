@@ -1,0 +1,3 @@
+#run with webcam connected
+
+python3 test/test_path_check.py
